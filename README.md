@@ -1,5 +1,5 @@
-# Hyperplane
-From Binary Classification to Continuous Prediction:  Assessing Nonnative Speaker Proficiency
+# From Binary Classification to Continuous Prediction:  Assessing Nonnative Speaker Proficiency
+
 
 Classification tasks sometimes require a fine-grained categorization of the predicted values. In many cases, corpora annotated with such high-resolution information are unavailable, but it is possible to curate labeled data with low-resolution categorical values that support binary classification. For example, on the task of assessing the proficiency level of nonnative speakers in a second language (L2), it is often difficult to obtain annotated corpora with fine-grained proficiency scores, but corpora of native vs. nonnative speakers are more readily available. Our hypothesis is that if an accurate classifier can differentiate between two extremes (e.g., natives vs. nonnatives), then the distance of an instance from the separating hyperplane can serve as a proxy for a more fine-grained property (here, the L2 proficiency level of nonnative authors). 
 
